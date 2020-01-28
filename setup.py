@@ -14,7 +14,7 @@ setuptools.setup(
         'Framework :: Jupyter',
     ],
     data_files=[
-        ('etc/jupyter/jupyter_notebook_config.d', ['jupyter_server_proxy/etc/jupyter-server-proxy-serverextension.json']),
+        ('etc/jupyter/jupyter_notebook_config.d', ['jupyter_sparkui_proxy/etc/jupyter-sparkui-proxy-serverextension.json']),
     ],
     include_package_data=True,
     zip_safe=False
